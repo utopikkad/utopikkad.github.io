@@ -28,8 +28,8 @@ nav{
 }
 .intro{
   font-weight:300;
-  padding-top :20%;
-  margin:auto !important;
+  margin-top: 20%;
+  padding-left :12%;
   text-shadow: -2px 3px 0 #636572, -7px 3px 0 #00020f;
   font-family: Courier,Lucida monospace
 
