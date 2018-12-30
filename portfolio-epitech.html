@@ -3,7 +3,7 @@
   <head>
     <meta name ="viewport" content = "width = device-width, initial-scale = 1">      
     <link rel = "stylesheet" href = "./fonts.css">
-    <link rel = "stylesheet" href = "./Portfolio_test01.css">
+    <link rel = "stylesheet" href = "./CSS/portfolio-epitech.css">
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Compiled and minified CSS -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
@@ -13,20 +13,19 @@
     integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
     <meta name="description" content="third try on the materialize framework">
-    <meta name="keywords" content="responsive design, portfolio, materialize design">
+    <meta name="keywords" content="responsive design, portfolio, materialize design, kaddour messabih, front end developpeur">
     <meta name="author" content="kaddour messabih">
-    <title>Portfolio by KaD</title>            
+    <title>Portfolio - kaddour messabih</title>            
   </head>
-<!--Penser a edenter correctement a rajouter les ALT dans les images rajouter des commentaires et penser au hoverable a certains endroits
-enlever le supeflu-->
+
   <body>
 
 <!--Navbar section et parallax n01-->
 
-  <div class="parallax-container"><!--Parallax n01-->
+  <div class="parallax-container" id="para01"><!--Parallax n01-->
     <nav class="navbar">
       <div class="nav-wrapper">
-        <img src="./189735_1005314413659_2776_n.jpg" width="150" alt="a 3D modelisation of me" class="foto_me hide-on-med-and-down responsive-img vertical-align"><!--modé de moi-->
+        <img src="./Img/189735_1005314413659_2776_n.jpg" width="150" alt="a 3D modelisation of me" class="foto_me hide-on-med-and-down responsive-img vertical-align"><!--modé de moi-->
         <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
 
         <ul class="right hide-on-med-and-down"><!--menu navbar-->
@@ -40,24 +39,24 @@ enlever le supeflu-->
     </nav>
         
         <ul class="sidenav grey darken-3 center-align" id="mobile-demo"><!--menu sidenav-->
-          <li><img src="./189735_1005314413659_2776_n.jpg" width="200" alt="a 3D modelisation of me" class="foto_me_nav responsive-img"></li>
+          <li><img src="./Img/189735_1005314413659_2776_n.jpg" width="200" alt="a 3D modelisation of me" class="foto_me_nav responsive-img"></li>
           <li><a class="side_nav_rubrik white-text" href="#apropos"><i class="white-text material-icons">face</i>A propos</a></li>
           <li><a class="side_nav_rubrik white-text" href="#parcourspro"><i class="white-text material-icons">folder_shared</i>Parcours pro</a></li>
           <li><a class="side_nav_rubrik white-text" href="#formations"><i class="white-text material-icons">school</i>Portfolio</a></li>
           <li><a class="side_nav_rubrik white-text" href="#contact"><i class="white-text material-icons">message</i>Contact</a></li>
         </ul>
 
-  <div class="hide-on-med-and-down"><!--divider white-->
+  <!--<div class="hide-on-med-and-down"> divider white
     <div class="divider white"></div>
-  </div>
+  </div>-->
 
   <div class="row hide-on-med-and-down"><!--intro presentation-->
     <div class="entete col l8 offset-l2 s10 offset-s1 white-text">
-    <h4 class="intro text-shadow">Bonjour, Kaddour Messabih Développeur Front-End.</h4>
+    <h4 class="intro text-shadow">Bonjour, je suis développeur Front End à Paris. Bienvenue sur mon portfolio !</h4>
   </div>
          
   </div><!--image fond parallax-->
-    <div class="parallax"><img src="./hello.png" class=" responsive-img hello" alt="a parallax image which say:hello world"></div>
+    <div class="parallax"><img src="./Img/hello.png" class=" responsive-img hello" alt="a parallax image which say:hello world"></div>
   </div>
 
   <div class="hide-on-med-and-down"><!--divider black-->
@@ -66,24 +65,22 @@ enlever le supeflu-->
 
   <!--Contact section-->
 
-  <div class="apropos grey lighten-3" id="apropos"><!--A propos-->
+  <div class="apropos" id="apropos"><!--A propos-->
     <div class="container">
       <div class="row">
         <div class="col l4 hide-on-med-and-down"><!--ma photo-->
           <div class="foto card medium grey lighten-3 valign-wrapper">
-            <img src="./moi.jpg" width="400" alt="a photo of me" class=" reponsive-img vertical-align center-align">
+            <img src="./Img/moi01.jpg" width="400" alt="a photo of me" class=" reponsive-img vertical-align center-align">
           </div>
         </div>
-        <div class="col l8 m12 s12 monlaius"><!--mon laius-->
+        <div class="col l8 m12 s12 monlaius"><!--mon propos-->
           <div class="contact card medium grey lighten-3">
-            <h6 class="contact-titre">Kaddour Messabih, Développeur Front-End</h6>
+            <h6 class="contact-titre">Kaddour Messabih en formation à Epitech, à la Coding Academy</h6>
               <div class="contact-contenu card-content">
-                <p class="contact-text">Bienvenue sur mon portfolio, je m'appelle Kaddour et j'ai toujours été attiré par les nouvelles techno.
-                J'ai effectué mes premières missions dans le domaine du marketing et de la vente, avant de me réorienter vers l'industrie du
-                jeu vidéo.<br><br> Après avoir participé à plusieurs productions et avoir tenté l'aventure entrepreneuriale, je me décide à continuer
-                mon aventure professionnelle en me dirigeant vers le developpement front-end. Je suis passionné et curieux intellectuellement
-                de nature, rigoureux et appliqué je considère que l'expérience utilisateur et la qualité du service rendu au client sont les valeurs 
-                cardinales dans ma carrière.</p>
+                <p class="contact-text">J'ai effectué mes premières missions dans le domaine du marketing et de la vente, avant de me réorienter vers l'industrie du
+                jeu vidéo.<br><br> Après avoir participé à plusieurs productions en tant que game/level designer je décidais de m'associer et de créer mon propre studio.<br><br>
+                Aujourd'hui j'ouvre mes horizons vers le développement web en me formant à la Coding Academy. Je suis passionné et curieux, je m'engage avec rigueur et application
+                dans tout ce que j'entreprends. N'hésitez pas à me contacter par mail (kmessabih@gmail.com) ou en utilisant le formulaire au bas de la page. Bonne visite !</p>
               </div>
           </div>
         </div>
@@ -115,18 +112,263 @@ enlever le supeflu-->
     </div>
   </div>
 
+<!--portfolio-->
+
+<!--jeux video-->
+
+<div class="portfolio grey lighten-3" id="portfolio"><!--partie jeux video-->
+  <section class="container">
+    <div class="row">
+      <h4 class="center parproport">Portfolio</h4>
+      <h6 class="center parprojv"><em>Jeux vidéo</em></h6>
+
+      <div class="col l3 s12"><!--RYZOM-->
+        <div class="card black z-depth-5 ">
+          <div class="card-image waves-effect waves-block waves-light ryzom">
+            <img class="activator" src="./Img/Ryzom_logo.png" alt="logo of ryzom">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator white-text text-darken-4">Ryzom (MMORPG)<i class="material-icons right">more_vert</i></span>
+            <p><a href="https://ryzom.com/?lang=fr" target="_blank">Site du jeu</a></p>
+          </div>
+          <div class="card-reveal black">
+            <span class="card-title white-text">Ryzom (PC)<i class="material-icons right">close</i></span>
+            <p class="white-text">Un MMORPG est un jeu de rôle massivement jouable en ligne.</p>
+            <p class="white-text">Ryzom est le seul jeu 3D de ce type créé en France.</p>
+            <p class="white-text">Crédité sur ce jeu en tant que testeur et level designer.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col l3 s12"><!--ARTHUR-->
+        <div class="card indigo darken-4 z-depth-5">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="./Img/4acc9009e03e5.jpg" alt="logo of 'arthur et le minimoys, la revanche de Maltazard'">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator white-text text-darken-4">Arthur et les minimoys<i class="material-icons right">more_vert</i></span>
+            <p class="white-text">Nintendo Wii</p>
+          </div>
+          <div class="card-reveal indigo darken-4">
+            <span class="card-title white-text">Arthur et les Minimoys, la revanche de Maltazard<i class="material-icons right">close</i></span>
+            <p class="white-text">Party game sur Nintendo Wii.</p>
+            <p class="white-text">Crédité en tant que game designer et level designer.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col l3 s12"><!--BITBITLOVE-->
+        <div class="card bitbitlove z-depth-5">
+          <div class="card-image waves-effect waves-block waves-light bitlove">
+            <img class="activator z-depth-2" src="./Img/10644626_598521766941777_4209011110288830623_o.png" alt="logo of Bit bit love">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator white-text">Bit Bit Love (androïd)<i class="material-icons right">more_vert</i></span>
+            <p><a href="https://play.google.com/store/apps/details?id=com.bluepillgames.storks.bitbitlove" target="_blank">Google play</a></p>
+          </div>
+          <div class="card-reveal deep-purple lighten-3">
+            <span class="card-title white-text">Bit bit love sur androïd<i class="material-icons right">close</i></span>
+            <p class="white-text">Jeu de réflexion avec une centaine de niveaux à la difficulté croissante.</p>
+            <p class="white-text">Crédité comme Game designer, Level designer et testeur.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col l3 s12"><!--ESTEREN-->
+        <div class="card esteren z-depth-5">
+          <div class="card-image waves-effect waves-block waves-light gss">
+            <img class="activator z-depth-2 responsive-img" src="./Img/unnamed.jpg" alt="logo of estern gss">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator white-text">Esteren GSS (androïd)<i class="material-icons right">more_vert</i></span>
+            <p><a href="https://play.google.com/store/apps/details?id=dev.bluepillgames.eightytwostorks.esteren" target="_blank">Google play</a></p>
+          </div>
+          <div class="card-reveal deep-purple accent-4">
+            <span class="card-title white-text">Esteren (et les griffes du seigneur socier)<i class="material-icons right">close</i></span>
+            <p class="white-text">Basé sur la licence de jeu de rôle papier : "les ombres d'Esteren".</p>
+            <p class="white-text">Jeu de réflexion avec une centaine de niveaux à la difficulté croissante.</p>
+            <p class="white-text">Crédité comme Game designer, Level designer et testeur.</p>
+          </div>
+        </div>
+      </div>
+
+    </div><!--fin div class row jeux video-->
+
+  </section><!--fin section container jeux video-->
+
+</div><!--fin div grey jeux video-->
+
+<!--fin jeux video-->
+
+<!--Skills-->
+
+<div class="partie_skills">
+
+  <h6 class="center parproskills"><em>Compétences/skills</em></h6>
+
+  <div class="skills col l12 m6 s6 center">
+
+    <div class="row">
+      <!--<i class="skills fab fa-node black-text fa-5x"></i>--> <!--A venir Work in progress-->
+      <!--<i class="skills fab fa-php black-text fa-5x"></i>-->  <!--A venir Work in progress-->
+      <i class="skills fab fa-html5 black-text fa-5x" alt="HTML5"></i>
+      <i class="skills fab fa-css3-alt black-text fa-5x" alt="CSS3"></i>
+      <i class="skills fab fa-sass black-text fa-5x" alt="Sass"></i>
+      <i class="skills fab fa-less black-text fa-5x" alt="Less"></i>
+      <i class="skills fab fa-js-square black-text fa-5x" alt="Javascript"></i>
+      <i class="skills fab fa-vuejs black-text fa-5x" alt="Vue.js"></i>
+      <i class="skills fab fa-react black-text fa-5x" alt="React"></i>
+      <i class="skills fab fa-angular black-text fa-5x" alt="Angular"></i>
+      <i class="skills fab fa-git-square black-text fa-5x" alt="Git"></i>
+      <i class="skills fab fa-mailchimp black-text fa-5x" alt="Mail chimp"></i>
+    </div>
+
+  </div>
+
+</div>
+
+<!--web-->
+
+<section class="container web"><!--section dev web-->
+  <div class="row">
+    <h6 class="center parproweb"><em>Développement web</em></h6>
+
+      <div class="col l4 s12"><!--hotel-->
+        
+        <div class="card z-depth-5">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="./Img/mockuphotel.jpg" alt="html page exemple">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Intégration HTML, CSS<i class="material-icons right">more_vert</i></span>
+            <!--<p><a href="#">This is a link</a></p>-->
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Intégration HTML, CSS<i class="material-icons right">close</i></span>
+            <p>Année : 2018.</p>
+            <p>Intégration en HTML dans le respect des standrds W3C concernant l'accessibilité.</p>
+            <p>Dans le cadre de ma formation Epitech.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col l4 s12"><!--semantique-->
+        <div class="card z-depth-5">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="./Img/mockup.jpg" alt="html page exemple">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Sémantique<i class="material-icons right">more_vert</i></span>
+            <!--<p><a href="#">This is a link</a></p>-->
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Sémantique<i class="material-icons right">close</i></span>
+            <p>Année : 2018.</p>
+            <p>Intégration en HTML dans le respect des standrds W3C concernant l'accessibilité.</p>
+            <p>Respect de la norme BEM.</p>
+            <p>Dans le cadre de ma formation Epitech.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col l4 s12"><!--responsive-->
+        <div class="card z-depth-5">
+          <div class="card-image waves-effect waves-block waves-light">
+            <img class="activator" src="./Img/responsive.png" alt="html page exemple">
+          </div>
+          <div class="card-content">
+            <span class="card-title activator grey-text text-darken-4">Responsive<i class="material-icons right">more_vert</i></span>
+            <!--<p><a href="#">This is a link</a></p>-->
+          </div>
+          <div class="card-reveal">
+            <span class="card-title grey-text text-darken-4">Responsive design<i class="material-icons right">close</i></span>
+            <p>Année : 2018.</p>
+            <p>Intégration en HTML dans le respect des standrds W3C concernant l'accessibilité.</p>
+            <p>Design en responsive via les media queries.</p>
+            <p>Dans le cadre de ma formation Epitech.</p>
+          </div>
+        </div>
+      </div>
+  </div><!--fin premier row sites web-->
+
+  <div class="row"><!--debut deuxieme row sites web-->
+
+    <div class="col l4 s12"><!--SASS01-->
+      <div class="card z-depth-5">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="./Img/mockupfusee.jpg" alt="html page exemple">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">SASS/Less<i class="material-icons right">more_vert</i></span>
+          <!--<p><a href="#">This is a link</a></p>-->
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">SASS Design<i class="material-icons right">close</i></span>
+          <p>Année : 2018.</p>
+          <p>Intégration en HTML dans le respect des standrds W3C concernant l'accessibilité.</p>
+          <p>Design en responsive, utilisation du préprocesseur SASS.</p>
+          <p>Dans le cadre de ma formation Epitech.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col l4 s12"><!--SASS02-->
+      <div class="card z-depth-5">
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="./Img/mockuphello.jpg" alt="html page exemple">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">SASS/Less<i class="material-icons right">more_vert</i></span>
+          <!--<p><a href="#">This is a link</a></p>-->
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">SASS Design<i class="material-icons right">close</i></span>
+          <p>Année : 2018.</p>
+          <p>Intégration en HTML dans le respect des standrds W3C concernant l'accessibilité.</p>
+          <p>Design en responsive, utilisation du préprocesseur SASS.</p>
+          <p>Dans le cadre de ma formation Epitech.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="col l4 s12">
+      <div class="card z-depth-5"><!--Materialize-->
+        <div class="card-image waves-effect waves-block waves-light">
+          <img class="activator" src="./Img/mock-up.png" alt="html page exemple">
+        </div>
+        <div class="card-content">
+          <span class="card-title activator grey-text text-darken-4">Framework Materialize<i class="material-icons right">more_vert</i></span>
+          <!--<p><a href="#">This is a link</a></p>-->
+        </div>
+        <div class="card-reveal">
+          <span class="card-title grey-text text-darken-4">Material Design<i class="material-icons right">close</i></span>
+          <p>Année : 2018.</p>
+          <p>Intégration en HTML dans le respect des standrds W3C concernant l'accessibilité.</p>
+          <p>Design en responsive, utilisation de materialize.</p>
+          <p>Dans le cadre de ma formation Epitech.</p>
+        </div>
+      </div>
+    </div>
+
+  </div><!--fin deuxieme row sites web-->
+
+</section><!--fin section container dev web-->
+
+<!--Fin site internet-->
+
+
 <!--Timeline parcours pro-->
 
   <div class="container timeline" id="parcourspro"><!--container timeline parcours pro-->
 
     <div class="timeline">
 
-    <h5 class="center parpro">Parcours professionnel</h5>
+    <h5 class="center parpropro"><em>Parcours professionnel</em></h5>
 
     <div class="timeline-event"><!--item blue pill-->
       <div class="card small timeline-content blue accent-1 z-depth-5 bluepill">
         <div class="card-image waves-effect waves-block waves-light bluepill">
-          <img class="activator" src="./Logo2013-2-fond-transparent.png" alt="logo of Blue pill">
+          <img class="activator" src="./Img/Logo2013-2-fond-transparent.png" alt="logo of Blue pill">
         </div>
         <div class="card-content">
           <span class="card-title activator grey-text text-lighten-5">Chef de projet associé/game-designer<i class="material-icons right">more_vert</i></span>
@@ -149,7 +391,7 @@ enlever le supeflu-->
     <div class="timeline-event"><!--item phoenix interactive-->
       <div class="card small timeline-content z-depth-5">
         <div class="card-image waves-effect waves-block waves-light phoenix">
-          <img class="activator" src="./logophoenixinteractive.png" alt="logo of Phoenix Interactive">
+          <img class="activator" src="./Img/logophoenixinteractive.png" alt="logo of Phoenix Interactive">
         </div>
         <div class="card-content">
           <span class="card-title activator grey-text text-darken-4">Game designer/Level designer<i class="material-icons right">more_vert</i></span>
@@ -171,7 +413,7 @@ enlever le supeflu-->
     <div class="timeline-event"><!--item gimagin-->
       <div class="card small timeline-content z-depth-5">
         <div class="card-image waves-effect waves-block waves-light gimagin">
-          <img class="activator" src="./logo_gimagin.png" alt="logo of gimagin">
+          <img class="activator" src="./Img/logo_gimagin.png" alt="logo of gimagin">
         </div>
         <div class="card-content">
           <span class="card-title activator grey-text text-darken-4">Game designer/Level designer<i class="material-icons right">more_vert</i></span>
@@ -193,7 +435,7 @@ enlever le supeflu-->
     <div class="timeline-event"><!--item nevrax-->
       <div class="card small timeline-content z-depth-5  grey lighten-3">
         <div class="card-image waves-effect waves-block waves-light nevrax">
-          <img class="activator" src="./Logo_nevrax.png" alt="logo of nevrax">
+          <img class="activator" src="./Img/Logo_nevrax.png" alt="logo of nevrax">
         </div>
         <div class="card-content">
           <span class="card-title activator grey-text text-darken-4">Testeur puis Level designer<i class="material-icons right">more_vert</i></span>
@@ -214,7 +456,7 @@ enlever le supeflu-->
     <div class="timeline-event"><!--item axecibles-->
       <div class="card small timeline-content orange lighten-2 z-depth-5">
         <div class="card-image waves-effect waves-block waves-light gimagin">
-          <img class="activator" src="./logo_axe.png" alt="logo of axecibles">
+          <img class="activator" src="./Img/logo_axe.png" alt="logo of axecibles">
         </div>
         <div class="card-content">
           <span class="card-title activator grey-text text-darken-4">Commercial<i class="material-icons right">more_vert</i></span>
@@ -236,7 +478,7 @@ enlever le supeflu-->
     <div class="timeline-event"><!--item planet interactive developpement-->
       <div class="card small timeline-content blue lighten-3 z-depth-5 ">
         <div class="card-image waves-effect waves-block waves-light planet">
-          <img class="activator" src="./planet.png" alt="logo of planet interactive development">
+          <img class="activator" src="./Img/planet.png" alt="logo of planet interactive development">
         </div>
         <div class="card-content">
           <span class="card-title activator grey-text text-darken-4">Assistant marketing<i class="material-icons right">more_vert</i></span>
@@ -259,7 +501,7 @@ enlever le supeflu-->
     <div class="timeline-event"><!--item club internet-->
       <div class="card small timeline-content yellow lighten-3 z-depth-5">
         <div class="card-image waves-effect waves-block waves-light club">
-          <img class="activator" src="./Club_Internet_logo_1998.png" alt="logo of club-internet">
+          <img class="activator" src="./Img/Club_Internet_logo_1998.png" alt="logo of club-internet">
         </div>
         <div class="card-content">
           <span class="card-title activator grey-text text-darken-4">Assistant chef de produit<i class="material-icons right">more_vert</i></span>
@@ -290,8 +532,9 @@ enlever le supeflu-->
     <div class="divider white"></div>
   </div>
 
-  <div class="parallax-container valign-wrapper hide-on-med-and-down"><!--parallax n02 once upon-->
-    <div class="parallax"><img src="./Screenshot_2014-12-30-16-41-26.png" alt=""></div>
+  <div class="parallax-container valign-wrapper hide-on-med-and-down" id="para02"><!--parallax n02 once upon-->
+    <span class="white-text descrippara02"><em>*Introduction du jeu Bit Bit love (Android, 2015)</em></span>
+    <div class="parallax"><img src="./Img/Screenshot_2014-12-30-16-41-26.png" alt="screenshot of our game bitbit love on ios/android"></div>
   </div>
 
   <div class="hide-on-med-and-small"><!--divider white-->
@@ -307,7 +550,7 @@ enlever le supeflu-->
     <div class="timeline-event"><!--item epitech-->
       <div class="card small timeline-content z-depth-5">
         <div class="card-image waves-effect waves-block waves-light epitech">
-          <img class="activator" src="./coding-academy-ionis.jpg" alt="logo coding academy">
+          <img class="activator" src="./Img/coding-academy-ionis.jpg" alt="logo coding academy">
         </div>
         <div class="card-content">
           <span class="card-title activator">Coding academy, Web-and-go<i class="material-icons right">more_vert</i></span>
@@ -327,7 +570,7 @@ enlever le supeflu-->
     <div class="timeline-event"><!--item ISART digital-->
       <div class="card small timeline-content blue darken-4 z-depth-5 isart">
         <div class="card-image waves-effect waves-block waves-light isart">
-          <img class="activator" src="./isart2000.png" alt="logo ISART digital">
+          <img class="activator" src="./Img/isart2000.png" alt="logo ISART digital">
         </div>
         <div class="card-content">
           <span class="card-title activator grey-text text-lighten-5">Diplôme de Game design/Level design<i class="material-icons right">more_vert</i></span>
@@ -348,7 +591,7 @@ enlever le supeflu-->
     <div class="timeline-event"><!--item ESMA-->
       <div class="card small timeline-content z-depth-5">
         <div class="card-image waves-effect waves-block waves-light esma">
-          <img class="activator" src="./logo-esma-2016-1488445837.jpg" alt="logo ESM-A">
+          <img class="activator" src="./Img/logo-esma-2016-1488445837.jpg" alt="logo ESM-A">
         </div>
         <div class="card-content">
           <span class="card-title activator grey-text text-darken-4">Diplôme d'école de commerce<i class="material-icons right">more_vert</i></span>
@@ -368,7 +611,7 @@ enlever le supeflu-->
     <div class="timeline-event"><!--item IUT-->
       <div class="card small timeline-content grey lighten-1 z-depth-5">
         <div class="card-image waves-effect waves-block waves-light iut">
-          <img class="activator" src="./MONTREUIL-Moyen.png" alt="logo of IUT of Montreuil">
+          <img class="activator" src="./Img/MONTREUIL-Moyen.png" alt="logo of IUT of Montreuil">
         </div>
         <div class="card-content">
           <span class="card-title activator grey-text text-darken-4">DUT organisation/gestion de production<i class="material-icons right">more_vert</i></span>
@@ -388,7 +631,7 @@ enlever le supeflu-->
     <div class="timeline-event"><!--item BAC-->
       <div class="card small timeline-content z-depth-5">
         <div class="card-image waves-effect waves-block waves-light bac">
-          <img class="activator" src="./75-663-LCDF.jpg" alt="logo of my high-school">
+          <img class="activator" src="./Img/75-663-LCDF.jpg" alt="logo of my high-school">
         </div>
         <div class="card-content">
           <span class="card-title activator grey-text text-darken-4">BAC scientifique option mathématiques<i class="material-icons right">more_vert</i></span>
@@ -407,258 +650,19 @@ enlever le supeflu-->
      
   </div><!--fin container timeline formation-->
 
-<!--portfolio-->
 
-<!--jeux video-->
-
-  <div class="portfolio grey lighten-3" id="portfolio"><!--partie jeux video-->
-    <section class="container">
-      <div class="row">
-        <h4 class="center parpro">Portfolio</h4>
-        <h6 class="center parpro"><em>Jeux vidéo</em></h6>
-
-        <div class="col l3 s12"><!--RYZOM-->
-          <div class="card black z-depth-5 ">
-            <div class="card-image waves-effect waves-block waves-light ryzom">
-              <img class="activator" src="./Ryzom_logo.png" alt="logo of ryzom">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator white-text text-darken-4">Ryzom (MMORPG)<i class="material-icons right">more_vert</i></span>
-              <p><a href="https://ryzom.com/?lang=fr" target="_blank">Site du jeu</a></p>
-            </div>
-            <div class="card-reveal black">
-              <span class="card-title white-text">Ryzom (PC)<i class="material-icons right">close</i></span>
-              <p class="white-text">Un MMORPG est un jeu de rôle massivement jouable en ligne.</p>
-              <p class="white-text">Ryzom est le seul jeu 3D de ce type créé en France.</p>
-              <p class="white-text">Crédité sur ce jeu en tant que testeur et level designer.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col l3 s12"><!--ARTHUR-->
-          <div class="card indigo darken-4 z-depth-5">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="./4acc9009e03e5.jpg" alt="logo of 'arthur et le minimoys, la revanche de Maltazard'">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator white-text text-darken-4">Arthur et les minimoys<i class="material-icons right">more_vert</i></span>
-              <p class="white-text">Nintendo Wii</p>
-            </div>
-            <div class="card-reveal indigo darken-4">
-              <span class="card-title white-text">Arthur et les Minimoys, la revanche de Maltazard<i class="material-icons right">close</i></span>
-              <p class="white-text">Party game sur Nintendo Wii.</p>
-              <p class="white-text">Crédité en tant que game designer et level designer.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col l3 s12"><!--BITBITLOVE-->
-          <div class="card bitbitlove z-depth-5">
-            <div class="card-image waves-effect waves-block waves-light bitlove">
-              <img class="activator z-depth-2" src="./10644626_598521766941777_4209011110288830623_o.png" alt="logo of Bit bit love">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator white-text">Bit Bit Love (androïd)<i class="material-icons right">more_vert</i></span>
-              <p><a href="https://play.google.com/store/apps/details?id=com.bluepillgames.storks.bitbitlove" target="_blank">Google play</a></p>
-            </div>
-            <div class="card-reveal deep-purple lighten-3">
-              <span class="card-title white-text">Bit bit love sur androïd<i class="material-icons right">close</i></span>
-              <p class="white-text">Jeu de réflexion avec une centaine de niveaux à la difficulté croissante.</p>
-              <p class="white-text">Crédité comme Game designer, Level designer et testeur.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col l3 s12"><!--ESTEREN-->
-          <div class="card esteren z-depth-5">
-            <div class="card-image waves-effect waves-block waves-light gss">
-              <img class="activator z-depth-2 responsive-img" src="./unnamed.jpg" alt="logo of estern gss">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator white-text">Esteren GSS (androïd)<i class="material-icons right">more_vert</i></span>
-              <p><a href="https://play.google.com/store/apps/details?id=dev.bluepillgames.eightytwostorks.esteren" target="_blank">Google play</a></p>
-            </div>
-            <div class="card-reveal deep-purple accent-4">
-              <span class="card-title white-text">Esteren (et les griffes du seigneur socier)<i class="material-icons right">close</i></span>
-              <p class="white-text">Basé sur la licence de jeu de rôle papier : "les ombres d'Esteren".</p>
-              <p class="white-text">Jeu de réflexion avec une centaine de niveaux à la difficulté croissante.</p>
-              <p class="white-text">Crédité comme Game designer, Level designer et testeur.</p>
-            </div>
-          </div>
-        </div>
-
-      </div><!--fin div class row jeux video-->
-
-    </section><!--fin section container jeux video-->
-
-  </div><!--fin div grey jeux video-->
-
-<!--fin jeux video-->
-
-<!--Skills-->
-
-<div class="grey lighten-2 partie_skills">
-
-    <h6 class="center parpro"><em>Compétences/skills</em></h6>
-
-    <div class="col l12 m6 s6 grey lighten-2 center">
-
-      <div class="row">
-        <i class="skills fab fa-node black-text fa-5x"></i>
-        <i class="skills fab fa-php black-text fa-5x"></i>
-        <i class="skills fab fa-sass black-text fa-5x"></i>
-        <i class="skills fab fa-react black-text fa-5x"></i>
-        <i class="skills fab fa-angular black-text fa-5x"></i>
-        <i class="skills fab fa-css3-alt black-text fa-5x"></i>
-        <i class="skills fab fa-git-square black-text fa-5x"></i>
-        <i class="skills fab fa-html5 black-text fa-5x"></i>
-        <i class="skills fab fa-js-square black-text fa-5x"></i>
-        <i class="skills fab fa-less black-text fa-5x"></i>
-        <i class="skills fab fa-mailchimp black-text fa-5x"></i>
-      </div>
-
-    </div>
-
-</div>
-
-<!--web-->
-
-  <section class="container web"><!--section dev web-->
-    <div class="row">
-      <h6 class="center parpro"><em>Développement web</em></h6>
-
-        <div class="col l4 s12"><!--hotel-->
-          <div class="card z-depth-5">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="./mockuphotel.jpg" alt="html page exemple">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Intégration HTML, CSS<i class="material-icons right">more_vert</i></span>
-              <!--<p><a href="#">This is a link</a></p>-->
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Intégration HTML, CSS<i class="material-icons right">close</i></span>
-              <p>Année : 2018.</p>
-              <p>Intégration en HTML dans le respect des standrds W3C concernant l'accessibilité.</p>
-              <p>Dans le cadre de ma formation Epitech.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col l4 s12"><!--semantique-->
-          <div class="card z-depth-5">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="./mockup.jpg" alt="html page exemple">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Sémantique<i class="material-icons right">more_vert</i></span>
-              <!--<p><a href="#">This is a link</a></p>-->
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Sémantique<i class="material-icons right">close</i></span>
-              <p>Année : 2018.</p>
-              <p>Intégration en HTML dans le respect des standrds W3C concernant l'accessibilité.</p>
-              <p>Respect de la norme BEM.</p>
-              <p>Dans le cadre de ma formation Epitech.</p>
-            </div>
-          </div>
-        </div>
-
-        <div class="col l4 s12"><!--responsive-->
-          <div class="card z-depth-5">
-            <div class="card-image waves-effect waves-block waves-light">
-              <img class="activator" src="./responsive.png" alt="html page exemple">
-            </div>
-            <div class="card-content">
-              <span class="card-title activator grey-text text-darken-4">Responsive<i class="material-icons right">more_vert</i></span>
-              <!--<p><a href="#">This is a link</a></p>-->
-            </div>
-            <div class="card-reveal">
-              <span class="card-title grey-text text-darken-4">Responsive design<i class="material-icons right">close</i></span>
-              <p>Année : 2018.</p>
-              <p>Intégration en HTML dans le respect des standrds W3C concernant l'accessibilité.</p>
-              <p>Design en responsive via les media queries.</p>
-              <p>Dans le cadre de ma formation Epitech.</p>
-            </div>
-          </div>
-        </div>
-    </div><!--fin premier row sites web-->
-
-    <div class="row"><!--debut deuxieme row sites web-->
-
-      <div class="col l4 s12"><!--SASS01-->
-        <div class="card z-depth-5">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="./mockupfusee.jpg" alt="html page exemple">
-          </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">SASS/Less<i class="material-icons right">more_vert</i></span>
-            <!--<p><a href="#">This is a link</a></p>-->
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">SASS Design<i class="material-icons right">close</i></span>
-            <p>Année : 2018.</p>
-            <p>Intégration en HTML dans le respect des standrds W3C concernant l'accessibilité.</p>
-            <p>Design en responsive, utilisation du préprocesseur SASS.</p>
-            <p>Dans le cadre de ma formation Epitech.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col l4 s12"><!--SASS02-->
-        <div class="card z-depth-5">
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="./mockuphello.jpg" alt="html page exemple">
-          </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">SASS/Less<i class="material-icons right">more_vert</i></span>
-            <!--<p><a href="#">This is a link</a></p>-->
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">SASS Design<i class="material-icons right">close</i></span>
-            <p>Année : 2018.</p>
-            <p>Intégration en HTML dans le respect des standrds W3C concernant l'accessibilité.</p>
-            <p>Design en responsive, utilisation du préprocesseur SASS.</p>
-            <p>Dans le cadre de ma formation Epitech.</p>
-          </div>
-        </div>
-      </div>
-
-      <div class="col l4 s12">
-        <div class="card z-depth-5"><!--Materialize-->
-          <div class="card-image waves-effect waves-block waves-light">
-            <img class="activator" src="./mock-up.png" alt="html page exemple">
-          </div>
-          <div class="card-content">
-            <span class="card-title activator grey-text text-darken-4">Framework Materialize<i class="material-icons right">more_vert</i></span>
-            <!--<p><a href="#">This is a link</a></p>-->
-          </div>
-          <div class="card-reveal">
-            <span class="card-title grey-text text-darken-4">Material Design<i class="material-icons right">close</i></span>
-            <p>Année : 2018.</p>
-            <p>Intégration en HTML dans le respect des standrds W3C concernant l'accessibilité.</p>
-            <p>Design en responsive, utilisation de materialize.</p>
-            <p>Dans le cadre de ma formation Epitech.</p>
-          </div>
-        </div>
-      </div>
-
-    </div><!--fin deuxieme row sites web-->
-
-  </section><!--fin section container dev web-->
-
-<!--Fin site internet-->
 
 <!--parallax n03-->
 
-  <div class="parallax-container valign-wrapper hide-on-med-and-down"><!--parallax n03 bitbitlove scr-->
-    <div class="parallax"><img src="./Screenshot_2014-12-30-16-34-01.png" alt="a screenshot of Bit bit love on androïd"></div>
+  <div class="parallax-container valign-wrapper hide-on-med-and-down" id="para03"><!--parallax n03 bitbitlove scr-->
+    <span class="white-text descrippara03"><em>*Image tirée du jeu Bit Bit love (Android, 2015)</em></span>
+    <div class="parallax"><img src="./Img/Screenshot_2014-12-30-16-34-01.png" alt="a screenshot of Bit bit love on androïd"></div>
   </div>
 
 <!--contact-->
 
   <section class="container contact"><!--container contact-->
-    <h6 class="center parpro"><em>Contactez-moi</em></h6>
+    <h6 class="center parprocontact"><em>Contactez-moi</em></h6>
 
 
       <div class="col l12" id="contact"><!--bloc form-->
@@ -667,13 +671,13 @@ enlever le supeflu-->
 
           <form action="https://formspree.io/kmessabih@gmail.com" method="POST" class="col l12 s12"><!--col nom-->
             <div class="row"><!--row nom prenom-->
-            <div class="input-field col l12 s12">
+            <div class="input-field col l6 offset-l3 s12">
               <i class="material-icons prefix">account_circle</i>
               <input placeholder="Votre nom" id="first_name" name="first_name" type="text" class="validate">
               <label for="first_name">Nom</label>
             </div>
 
-            <div class="input-field col l12 s12"><!--col prenom-->
+            <div class="input-field col l6 offset-l3 s12"><!--col prenom-->
               <i class="material-icons prefix">account_circle</i>
               <input placeholder="Votre prénom" id="last_name" type="text" name="last_name" class="validate">
               <label for="last_name">Prénom</label>
@@ -684,14 +688,14 @@ enlever le supeflu-->
         <div class="row"><!--row email tel-->
 
           <!--<form action="https://formspree.io/kmessabih@gmail.com" method="POST" class="col l12 s12">col email-->
-            <div class="input-field col l12 s12">
+            <div class="input-field col l6 offset-l3 s12">
               <i class="material-icons prefix">email</i>
               <input placeholder="Email" id="icon_email" type="email" name="email" class="validate">
               <label for="icon_email">Email</label>
               <span class="helper-text"  data-error="wrong" data-success="right"></span>
             </div>
                          
-            <div class="input-field col l12 s12"><!--col tel-->
+            <div class="input-field col l6 offset-l3 s12"><!--col tel-->
               <i class="material-icons prefix">phone</i>
               <input id="icon_telephone" placeholder="téléphone" type="tel" name="tel" class="validate">
               <label for="icon_telephone">Téléphone</label>
@@ -702,7 +706,7 @@ enlever le supeflu-->
         <div class="row"><!--row nmessage-->
 
           <!--<form action="https://formspree.io/kmessabih@gmail.com" method="POST" class="col l12 s12"> col message-->
-            <div class="input-field col l12 s12">
+            <div class="input-field col l6 offset-l3 s12">
               <i class="material-icons prefix">comment</i>
               <textarea placeholder="Entrez votre texte ici..." id="textarea1" name="message" class="materialize-textarea"></textarea>
               <label for="textarea1">Entrez votre message</label>
@@ -730,11 +734,12 @@ enlever le supeflu-->
 
         <div class="col l6 s12"><!--partie gauche footer-->
           <h5 class="white-text">Kad Messabih Développeur Front-end</h5>
-          <p class="grey-text text-lighten-4">Merci d'avoir visité mon portfolio, n'hésitez pas à me contacter.</p>
+          <p class="grey-text text-lighten-4">Démarrons un projet ensemble, n'hésitez pas à me contacter.</p>
           <div class="center-align">
               <a class="rezo-lien" href="https://twitter.com/UtOpiK_KaD?lang=fr" target=”_blank”><i class="fab fa-twitter-square fa-3x hoverable" style="color:rgb(29, 202, 255)"></i></a>
               <a class="rezo-lien" href="https://github.com/utopikkad/utopikkad.github.io" target=”_blank”><i class="fab fa-github-square fa-3x hoverable" style="color:white"></i></a>
               <a class="rezo-lien" href="https://fr.linkedin.com/in/kadmessabih" target=”_blank”><i class="fab fa-linkedin fa-3x hoverable " style="color:white"></i></a>
+              <a class="rezo-lien" href="https://fr.viadeo.com/fr/profile/messabih.kaddour" target=”_blank”><i class="fab fa-viadeo fa-3x hoverable " style="color:white"></i></a>
             </div>
         </div>
 
@@ -765,7 +770,7 @@ enlever le supeflu-->
 <!--scripts-->
 
   <script src = "https://code.jquery.com/jquery-2.1.1.min.js"></script> 
-  <script src = "./materialize.min.js"></script>
+  <script src = "./Js/materialize.min.js"></script>
   <script>const sideNav = document.querySelector('.sidenav');M.Sidenav.init(sideNav, {});</script>
   <script>$(document).ready(function(){$('.parallax').parallax();});</script>
 

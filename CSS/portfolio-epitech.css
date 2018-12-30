@@ -10,20 +10,25 @@ nav{
   background-color: rgba(0,0,0,0.5) !important;
   
 }
+#para01 {
+  height: 1000px!important;
+}
 .foto_me{
     margin-top:01%;
     margin-left:02%;
-    border:2px solid white;
+    border:1px solid rgba(0,0,0,0.5) !important;
     border-radius: 10px;
+    opacity: 0.8;
 }
 .foto_me_nav{
   margin-top:10%;
   border:2px solid white;
   border-radius: 10px;
+
 }
 .intro{
   font-weight:300;
-  padding:07%;
+  padding-top :20%;
   margin:auto !important;
   text-shadow: -2px 3px 0 #636572, -7px 3px 0 #00020f;
   font-family: Courier,Lucida monospace
@@ -31,6 +36,7 @@ nav{
 }
 .foto.card{
    margin-top:12% !important;
+   max-width: 80% !important;
 
 }
 .contact.card{
@@ -160,7 +166,7 @@ nav{
       left: 0;
     }
     .monlaius{
-      line-height: 1.2em;
+      line-height: 1em;
     }
   }
   @media (max-width: 400px){
@@ -181,10 +187,48 @@ span.bluepill{
   font-weight:bold;
   font-size:0.9em;
 }
-.parpro{
+.parproport{
+  padding:3% !important;
+  font-weight:300;
+  font-size:4em;
+}
+.parprojv{
   padding:3% !important;
   font-weight:300;
   font-size:2em;
+}
+.parproskills{
+  padding:3% !important;
+  font-weight:300;
+  font-size:2em;
+}
+.parproweb{
+  padding:3% !important;
+  font-weight:300;
+  font-size:2em;
+}
+.parpropro{
+  padding:3% !important;
+  font-weight:300;
+  font-size:2em;
+}
+#para02 {
+  position: relative;
+}
+.descrippara02{
+  position : absolute;
+  bottom : 10%;
+  left: 10%;
+  font-weight:300;
+}
+#para03 {
+  position: relative;
+}
+.descrippara03{
+  position : absolute;
+  bottom : 10%;
+  left: 10%;
+  font-weight:300;
 }
 .card-title{
   font-weight:bold!important;
@@ -273,14 +317,21 @@ span.bluepill{
   padding-bottom:03%;
 }
 .partie_skills{
-  padding-bottom:05% !important;
-  padding-top:05%;
+  height: 300px !important;
+  padding-bottom:10% !important;
+  padding-top:0% !important;
 }
 .skills{
-  padding-left:03%;
+  padding:1%;
+  margin: auto;
+}
+.parprocontact {
+  padding:3% !important;
+  font-weight:300;
+  font-size:2em;
 }
 .submit{
-  padding-left:80%;
+  padding-left:67%;
   padding-top:01% !important;
 } 
 
