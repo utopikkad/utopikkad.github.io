@@ -166,12 +166,15 @@ nav{
       left: 0;
     }
     .monlaius{
-      line-height: 1em;
+      line-height: 1.2em;
+    }
+    #para01 {
+      height: 300px!important;
     }
   }
   @media (max-width: 400px){
     .monlaius{
-      line-height: 0.8em;
+      line-height: 1em;
     }
   }
 
