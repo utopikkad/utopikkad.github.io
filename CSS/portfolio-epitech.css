@@ -171,6 +171,13 @@ nav{
     #para01 {
       height: 300px!important;
     }
+    .contact.card{
+      height: 500px!important;
+    }
+    #apropos{
+      height: 600px!important;
+      
+    }
   }
   @media (max-width: 400px){
     .monlaius{
@@ -178,6 +185,13 @@ nav{
     }
     .contact-text {
       font-size: 0.9em !important;
+    }
+    .contact.card{
+      height: 400px!important;
+    }
+    #apropos{
+      height: 600px!important;
+      
     }
   }
 
