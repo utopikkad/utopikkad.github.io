@@ -145,7 +145,15 @@ nav{
   .container.timeline{
       padding-bottom:03%;
   }
-  
+  @media (max-width: 800px) {
+    .contact.card{
+      height: 500px!important;
+    }
+    #apropos{
+      height: 600px!important;
+      
+    }
+  }
   @media (max-width: 600px) {
     .timeline .timeline-event .timeline-content {
       width: calc(100% - 70px);
