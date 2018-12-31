@@ -176,6 +176,9 @@ nav{
     .monlaius{
       line-height: 1em;
     }
+    .contact-text {
+      font-size: 0.9em !important;
+    }
   }
 
  .card .card-image{
